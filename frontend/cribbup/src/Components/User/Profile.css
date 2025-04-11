@@ -1,0 +1,27 @@
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4f5d6d;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}

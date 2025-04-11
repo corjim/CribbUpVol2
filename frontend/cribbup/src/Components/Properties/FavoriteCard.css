@@ -1,0 +1,10 @@
+.favorite-button {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.favorite-button:hover {
+    opacity: 0.9;
+}

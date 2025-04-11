@@ -1,0 +1,30 @@
+/* Center the login form */
+.login-container {
+    height: 100vh;
+}
+
+/* Style the login card */
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style the login button */
+.login-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.login-button:hover {
+    background: #0056b3;
+}
+
+/* Style form input fields */
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}

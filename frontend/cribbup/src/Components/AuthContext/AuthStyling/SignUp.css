@@ -1,0 +1,30 @@
+/* Center the signup form */
+.signup-container {
+    height: 100vh;
+}
+
+/* Style the signup card */
+.signup-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style the signup button */
+.signup-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.signup-button:hover {
+    background: #0056b3;
+}
+
+/* Style form input fields */
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}

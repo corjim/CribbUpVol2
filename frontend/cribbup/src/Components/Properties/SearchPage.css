@@ -1,0 +1,131 @@
+/* General styling for the search page */
+.search-page-container {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+/* Search Header */
+.search-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: rgba(215, 199, 202, 0.333);
+    font-weight: bold;
+    box-shadow: 2px 2px 4px;
+    text-shadow: 1px 1px 1px;
+    /* margin: 20px; */
+}
+
+.search-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.search-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Search Bar */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    background: rgba(215, 199, 202, 0.333);
+    font-weight: bold;
+    box-shadow: 2px 2px 4px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+/* property Body */
+
+.property-card {
+    letter-spacing: 2px;
+}
+
+.props-body {
+    background: #dbdada;
+    box-shadow: 5px 5px 5px #706464;
+}
+
+.props-body:hover {
+    background-color: #b1adad;
+    box-shadow: 4px 10px 4px rgb(32, 41, 45);
+    transform: scale(1.01);
+}
+
+/* Location Title */
+.location-title {
+    color: rgb(20, 20, 20);
+    background: rgba(215, 199, 202, 0.333);
+    font-weight: bold;
+    box-shadow: 2px 2px 4px;
+    margin-bottom: 50px;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Search Results */
+.search-results-container {
+    margin-top: 20px;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pagination-controls span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* No Results Message */
+.no-results-message {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #666;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .search-bar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
