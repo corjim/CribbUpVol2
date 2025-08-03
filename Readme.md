@@ -2,8 +2,7 @@
 
 A **real estate listing and favorite management** web application that allows users to search for properties with a zip code, cit/town or address, save them favorites for future reference and tracking. App made use of Zillow api in the intergration and search of properties.
 
-https://cribbup-frontend.onrender.com
-
+https://cribbup-2lnb.onrender.com/
 ---
 
 
