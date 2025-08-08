@@ -28,8 +28,6 @@ class CribbUpApi {
         if (this.token && this.checkTokenExpiration(this.token)) {
             console.warn("Token expired. Logging out...");
 
-            this.logout();
-
             throw new Error("Session expired. Please re-sign up again.");
         }
 
